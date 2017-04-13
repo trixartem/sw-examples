@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check speed</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+<div class="status">OFFLINE</div>
+<div class="desc hidden">
+    Встряхните телефон 3 раза, что бы получить результат
+    <div class="shakes hidden">
+        <div class="shake"></div>
+        <div class="shake"></div>
+        <div class="shake"></div>
+    </div>
+</div>
+<h3 class="result"></h3>
+<button id="shake-button" class="hidden" onclick="shake()">Трясти</button>
+<button id="reset" class="hidden" onclick="clearCount()">Очистить</button>
+<button id="ready" onclick="ready()">Начать</button>
+
+<script src="/javascripts/shake.js"></script>
+<script src="/javascripts/index-offline.js"></script>
+</body>
+</html>

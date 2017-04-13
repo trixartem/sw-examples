@@ -11,7 +11,7 @@ function initSW() {
     }
     navigator
         .serviceWorker
-        .register('./sw.js')
+        .register('/sw.js')
 
     window.addEventListener('offline', _ => location.reload());
 }

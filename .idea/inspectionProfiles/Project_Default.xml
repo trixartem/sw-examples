@@ -1,7 +1,6 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <option name="myLocal" value="true" />
     <inspection_tool class="AccessStaticViaInstance" level="WARNING" enabled="false" />
     <inspection_tool class="AssertEqualsBetweenInconvertibleTypes" level="WARNING" enabled="false" />
     <inspection_tool class="BooleanConstructor" level="WARNING" enabled="false" />
@@ -39,7 +38,6 @@
     <inspection_tool class="EmptyMethod" level="WARNING" enabled="false" />
     <inspection_tool class="EmptyTryBlock" level="WARNING" enabled="false" />
     <inspection_tool class="EmptyTryBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="FieldCanBeLocal" level="WARNING" enabled="false" />
     <inspection_tool class="FinalizeCallsSuperFinalize" level="WARNING" enabled="false">
       <option name="m_ignoreForObjectSubclasses" value="false" />
