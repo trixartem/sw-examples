@@ -1,0 +1,26 @@
+{
+  "name": "dump fronttalks",
+  "short_name": "dump 2017",
+  "lang": "ru",
+  "start_url": "https://rawgit.com/trixartem/service-worker/master/fronttalks/index.html",
+  "display": "standalone",
+  "background_color": "#e22b69",
+  "gcm_sender_id": "189891440189",
+  "icons": [
+    {
+      "src": "images/dump_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/dump_144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/dump_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

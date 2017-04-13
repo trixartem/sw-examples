@@ -11,7 +11,7 @@ function initSW() {
     }
     navigator
         .serviceWorker
-        .register('/sw.js')
+        .register('/game/sw.js')
 
     window.addEventListener('offline', _ => location.reload());
 }
@@ -19,9 +19,7 @@ function initSW() {
 function showButton(button) {
     button && button.classList.remove('hidden');
 }
-function hideButton(button) {
-    button && button.classList.add('hidden');
-}
+
 initSW();
 
 

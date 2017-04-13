@@ -2,11 +2,11 @@ const cacheVersion = '1.3';
 const prefix = 'game-static'
 const staticCacheName = `${prefix}-v${cacheVersion}`;
 const staticCache = [
-    '/stylesheets/style.css',
-    '/javascripts/index.js',
-    '/javascripts/shake.js',
-    '/javascripts/index-offline.js',
-    '/offline'
+    '/game/stylesheets/style.css',
+    '/game/javascripts/index.js',
+    '/game/javascripts/shake.js',
+    '/game/javascripts/index-offline.js',
+    '/game/offline'
 ];
 let installTime = 0;
 
@@ -49,13 +49,13 @@ function handleFetch(event) {
     let pathname = url.pathname;
 
     console.log(pathname);
-    if (pathname === '/') {
-        return fetch('/')
+    if (pathname === '/game/') {
+        return fetch('/game')
             .then(res => {
                 return res;
             })
             .catch(_ => {
-                return caches.match('/offline')
+                return caches.match('/game/offline')
             });
     }
 
