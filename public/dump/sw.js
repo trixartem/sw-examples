@@ -1,5 +1,5 @@
 const cacheVersion = '1';
-const prefix = 'static'
+const prefix = 'dump-static'
 const staticCacheName = `${prefix}-v${cacheVersion}`;
 const staticCache = [
     '/dump/index.css',
@@ -47,7 +47,7 @@ self.addEventListener('activate', event => {
             .then(keys => {
                 return Promise.all(
                     keys.map(key => {
-                        if (!key.startsWith(prefix + '-')) {
+                        if (key.startsWith(prefix) && key !== staticCacheName) {
                             return caches.delete(key);
                         }
                     })
