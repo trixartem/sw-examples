@@ -1,4 +1,4 @@
-const cacheVersion = '1';
+const cacheVersion = '1.1';
 const prefix = 'game-static'
 const staticCacheName = `${prefix}-v${cacheVersion}`;
 const staticCache = [
@@ -32,7 +32,7 @@ self.addEventListener('activate', event => {
             .then(keys => {
                 return Promise.all(
                     keys.map(key => {
-                        if (!key.startsWith(prefix + '-')) {
+                        if (!key.startsWith(prefix + '-v')) {
                             return caches.delete(key);
                         }
                     })

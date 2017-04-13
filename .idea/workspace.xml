@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1e7e401-70af-4618-b811-fccc4f1aa90a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sw-project" afterPath="$PROJECT_DIR$/sw-project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/index-offline.js" afterPath="$PROJECT_DIR$/public/javascripts/index-offline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/offline.hbs" afterPath="$PROJECT_DIR$/views/offline.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sw.js" afterPath="$PROJECT_DIR$/public/sw.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,16 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layout.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.hbs">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-offline.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-offline.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/index-offline.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
               <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sw.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/sw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -140,13 +139,13 @@
       <list>
         <option value="$PROJECT_DIR$/public/javascripts/sw.js" />
         <option value="$PROJECT_DIR$/public/javascripts/index.js" />
-        <option value="$PROJECT_DIR$/public/sw.js" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
         <option value="$PROJECT_DIR$/views/offline.hbs" />
         <option value="$PROJECT_DIR$/public/javascripts/index-offline.js" />
+        <option value="$PROJECT_DIR$/public/sw.js" />
       </list>
     </option>
   </component>
@@ -376,12 +375,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492110631580</updated>
       <workItem from="1492110632841" duration="116000" />
-      <workItem from="1492110797070" duration="2200000" />
+      <workItem from="1492110797070" duration="2292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2316000" />
+    <option name="totallyTimeSpent" value="2408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -735,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -827,6 +818,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
