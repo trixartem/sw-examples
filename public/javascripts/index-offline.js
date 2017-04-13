@@ -23,7 +23,9 @@ function hideButton(button) {
 
 function ready() {
     shakeEvent.start();
-    showButton(shakeButton);
+    if(!("ondevicemotion" in window)) {
+        showButton(shakeButton);
+    }
     hideButton(readyButton);
     showButton(desc);
     showButton(shakeWrapper);
@@ -42,7 +44,6 @@ function clearCount() {
 
 function shake() {
     shakeCounter++;
-    console.log(shakeLed);
     switch (shakeCounter) {
         case 1:
             shakeLed[0].classList.add('switch-on');
