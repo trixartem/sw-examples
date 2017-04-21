@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/yasubbotnik/index.css">
+    <link rel="manifest" href="/yasubbotnik/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Я.Субботник по фронтенду</title>
+</head>
+<body>
+<header>
+    <h2 class="section-header">Я.Субботник по фронтенду</h2>
+</header>
+<section>
+    <ul>
+        <li class="lecture">
+            <div class="lecture__time">11:00</div>
+            <div class="lecture__name lecture__name_out_program">Регистрация</div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">12:00</div>
+            <div class="lecture__name lecture__name_out_program">Открытие</div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">12:10</div>
+            <div class="lecture__name"> Опыт внедрения Flow</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/alex.jpeg)"></div>
+            <div class="lecture__speaker">Алексей Верхоланцев, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Наш проект (партнёрский интерфейс Рекламной сети Яндекса) переезжает на новый технологический стек.
+                    Мы решили попробовать статический анализ типов в боевых условиях.</p>
+                <p>Я расскажу о проблемах, с которыми мы столкнулись, и о том, какой опыт мы из этого извлекли.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">12:50</div>
+            <div class="lecture__name">10k</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/vital.jpeg)"></div>
+            <div class="lecture__speaker">Виталий Харисов, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Я расскажу про лёгкую версию поиска для медленных соединений и способы оптимизации кода, позволяющие
+                    уложиться в 10k.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">13:20</div>
+            <div class="lecture__name lecture__name_out_program">Перерыв</div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">13:40</div>
+            <div class="lecture__name">Сomposition over inheritance</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/vlad-gr.jpeg)"></div>
+            <div class="lecture__speaker">Владимир Гриненко, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Рассказ про преимущества композиции перед наследованием при построении сложных компонентов на примере
+                    рефакторинга карточки организации в Личном кабинете для бизнеса.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">14:10</div>
+            <div class="lecture__name">Собираем Kinect из смартфона и Smart TV</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/vital-pot.png)"></div>
+            <div class="lecture__speaker">Виталий Потапов, Яндекс</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/alexander.jpeg)"></div>
+            <div class="lecture__speaker">Александр Олейников, Яндекс</div>
+            <div class="lecture__desc">
+                <p>О том как управлять телевизором прямо из мобильного браузера. Рассказ о способах взаимодействия с
+                    умным телевизором и демонстрация с участием всех зрителей :).</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">14:50</div>
+            <div class="lecture__name lecture__name_out_program">Обед</div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">16:00</div>
+            <div class="lecture__name">Карта для Олимпиады</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/ivan.jpeg)"></div>
+            <div class="lecture__speaker">Иван Карев, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Как готовили и отображали карту с голосами болельщиков.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">16:40</div>
+            <div class="lecture__name">Сага о redux</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/max.jpeg)"></div>
+            <div class="lecture__speaker">Максим Васильев, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Рассказ о том, как мы работаем с побочными эффектами в проектах Я.Здоровья.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">17:20</div>
+            <div class="lecture__name">Жизнь без интернета</div>
+            <div class="lecture__photo" style="background-image: url(/yasubbotnik/images/artem.jpeg)"></div>
+            <div class="lecture__speaker">Максим Васильев, Яндекс</div>
+            <div class="lecture__desc">
+                <p>Сейчас интернет всегда лежит в кармане. Создаётся ощущение, что мы достигли точки, когда интернет есть везде, но это не так. До сих пор, даже в огромном мегаполисе, можно найти кучу мест, где интернета нет: вы спускаетесь в метро — интернета нет, вы пришли в модный клуб — интернета нет, вы на 50-м этаже высотки — интернета нет, вы на конференции с более чем тысячей участников...</p>
+                <p>Я расскажу о том, как с помощью технологий service workers сделать любую веб-страницу доступной без интернета, а также покажу, где мы в Яндексе уже используем такие технологии.</p>
+            </div>
+        </li>
+        <li class="lecture">
+            <div class="lecture__time">18:00</div>
+            <div class="lecture__name lecture__name_out_program">Закрытие</div>
+        </li>
+    </ul>
+</section>
+<script src="/yasubbotnik/index.js"></script>
+</body>
+</html>
