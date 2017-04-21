@@ -31,6 +31,7 @@ h2
     font-weight: 400;
 
     padding: 0 15px;
+    margin-bottom: 10px;
 }
 
 .yandex-logo
@@ -88,7 +89,7 @@ section > ul
 {
     line-height: 1.5;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .person__photo,
@@ -111,7 +112,7 @@ section > ul
 
 .lecture__time
 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     color: rgba(0,0,0,.7);;
 }
@@ -177,7 +178,7 @@ hr
 
 .section-header
 {
-    line-height: 1.5;
+    line-height: 1.1;
 
     margin-top: 0;
 }
